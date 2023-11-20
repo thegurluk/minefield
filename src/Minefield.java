@@ -10,7 +10,7 @@ public class Minefield {
     int a;
     int b;
 
-    public Minefield(int rowNumber,int colNumber){
+    public minefield(int rowNumber,int colNumber){
         this.rowNumber=rowNumber;
         this.colNumber=colNumber;
         this.myMap=new Object[rowNumber][colNumber];
